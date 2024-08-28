@@ -79,6 +79,10 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ## 👨‍💻 Contribuidores
 
+#### Orientador
+
+- [@Erminio Paixão]()
+
 #### Desenvolvedor
 
 - [@Marco Antonio](https://github.com/marco0antonio0)
