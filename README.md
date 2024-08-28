@@ -3,6 +3,12 @@
 
 ![Defesa Civil Logo](https://your-logo-url.com) <!-- Substitua pelo link do logo se houver -->
 
+### Acesso rapido
+
+- [Front-end](/frontend/)
+- [Back-end](/backend/)
+- [Diagramas](/diagramas/)
+
 O **Defesa Civil App** é uma aplicação móvel desenvolvida em Flutter com o objetivo de registrar e gerenciar os cadastros de pessoas atendidas nos postos da Defesa Civil. Este aplicativo foi criado para agilizar o processo de atendimento e fornecer um registro digital confiável dos cidadãos atendidos.
 
 ## 📋 Funcionalidades
@@ -57,11 +63,10 @@ O **Defesa Civil App** é uma aplicação móvel desenvolvida em Flutter com o o
 ```
 lib/
 │
-├── models/               # Modelos de dados
-├── screens/              # Telas do aplicativo
-├── services/             # Serviços como comunicação com banco de dados
-├── widgets/              # Widgets reutilizáveis
-└── main.dart             # Arquivo principal da aplicação
+├── components/         # buttons, partes componentizadas
+├── pages/              # Telas do aplicativo
+├── services/           # Serviços como comunicação com banco de dados
+└── main.dart           # Arquivo principal da aplicação
 ```
 
 ## 🤝 Contribuições
