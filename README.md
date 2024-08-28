@@ -1,7 +1,7 @@
 
 # 📱 Defesa Civil App
 
-![Defesa Civil Logo](https://your-logo-url.com) <!-- Substitua pelo link do logo se houver -->
+![Defesa Civil Logo](imagesReadme/Frame%202.png) <!-- Substitua pelo link do logo se houver -->
 
 ### Acesso rapido
 
