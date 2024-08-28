@@ -152,4 +152,4 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ## 🗂️ Diagramas
 
-Os diagramas do projeto, incluindo o fluxo de dados e a estrutura do banco de dados, estão disponíveis na seção [Diagramas](/diagramas/). Estes diagramas fornecem uma visão detalhada do funcionamento interno do aplicativo e são essenciais para entender a arquitetura geral do sistema.
+Os diagramas do projeto, incluindo o fluxo de dados e a estrutura do banco de dados, estão disponíveis na seção [Diagramas](/docs/diagrama/). Estes diagramas fornecem uma visão detalhada do funcionamento interno do aplicativo e são essenciais para entender a arquitetura geral do sistema.
