@@ -9,7 +9,7 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
-//Conecta-se ao banco de dados SQLite
+//Conecta-se ao banco de dados SQLitee
 const db = new sqlite3.Database('./data/coleta_dados.db', (err) => {
   if (err) {
     console.error('Não foi possível conectar ao banco de dados', err);
