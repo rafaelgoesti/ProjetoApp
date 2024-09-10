@@ -18,7 +18,7 @@ app.post('/api', (req, res) => {
         res.status(400).send("Erro dados faltando")
     }
     // salva no banco de dados
-    // SQL e NOSQL
+    // SQL
     const d = fn_salva_dado(dados)
 
     res.send(`${d}`); // Devolve a mensagem com o valor de "data"
