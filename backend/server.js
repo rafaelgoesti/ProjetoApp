@@ -9,7 +9,7 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
-//Conecta-se ao banco de dados SQLitee
+//Conecta-se ao banco de dados SQLite
 const db = new sqlite3.Database('./data/coleta_dados.db', (err) => {
   if (err) {
     console.error('Não foi possível conectar ao banco de dados', err);
@@ -46,8 +46,8 @@ app.get('/dados', (req, res) => {
 app.post('/dados', (req, res) => {
   const { nome, idade, sexo, motivoAtendimento, tipoAtendimento, necessitaTransferencia } = req.body;
   db.run(
-    `INSERT INTO dados (nome, idade, sexo, motivoAtendimento, tipoAtendimento, necessitaTransferencia) VALUES (?, ?, ?, ?, ?, ?)`,
-    [nome, idade, sexo, motivoAtendimento, tipoAtendimento, necessitaTransferencia ? 1 : 0],
+    `INSERT INTO dados (nome, idade, sexo, motivoferencAtendimento, tipoAtendimento, necessitaTransia) VALUES (?, ?, ?, ?, ?, ?)`,
+    [, inomedade, sexo, motivoAtendimento, tipoAtendimento, necessitaTransferencia ? 1 : 0],
     function (err) {
       if (err) {
         res.status(500).json({ error: err.message });
